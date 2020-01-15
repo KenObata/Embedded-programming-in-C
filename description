@@ -1,0 +1,17 @@
+The goal of this assignment is to implement the Collatz sequence explorer.
+The initial starting value for the sequence will be obtained from the user via the
+buttons on the LCD Shield (as described in Specifications below). Upon user
+confirmation, the device should display the initial value, whatever it is, and its
+count of 0 at the designated locations on LCD. After a short time-delay, the
+device will advance to the next value and display its corresponding count of
+1. The value and its count will continue advancing with a predetermined timedelay between them until the value reaches 1, at which point the last value
+and its count will remain on the screen until the user selects another value.
+The time-delay period will be chosen by the user, as described in Specifications
+below.
+While the Collatz sequence is advancing on the screen, the user should be able
+to continue to interact with the input prompt using the LCD shield buttons.
+At any time, when the user changes the speed setting, the time-delay should
+be adjusted accordingly and immediately. Similarly, when the user changes the
+starting value and confirms the selection, immediately upon confirmation, the
+sequence display will update with the new starting value and start advancing
+from there.
